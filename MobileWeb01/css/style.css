@@ -1,0 +1,213 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.backtemplate
+{
+    width: 20%;
+    height: 500px;
+    background-image: url(../images/bg05.jpg);
+    background-size: cover;
+    background-position: center; 
+    margin: 0px auto;
+    padding: 50px;
+    margin-top: 200px;
+    border-radius: 10%;
+}
+
+.iconpack
+{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 15%;
+}
+
+
+.icon
+{
+    height: 4em;
+    width: 4em;
+    border: solid 3px;
+    border-radius: 1em;
+}
+
+.bigicon
+{
+    margin-top: 4em;
+    height: 4em;
+    width: 19em;
+    border: solid 3px;
+    border-radius: 1em;
+}
+
+.pepsi
+{
+    background-image: url(../images/Pepsi.png);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center;   
+    /* align-self: flex;  */
+}
+
+.cola
+{
+    background-image: url(../images/cola.jpg);
+    background-repeat: no-repeat;
+    background-size: 140% 140%;
+    background-position: center;    
+}
+
+.sprite
+{
+    background-image: url(../images/sprite.jpg);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center;    
+}
+
+.pepper
+{
+    background-image: url(../images/drpepper.jpg);
+    background-repeat: no-repeat;
+    background-size: 180% 180%;
+    background-position: center; 
+}
+
+.lemon
+{
+    background-image: url(../images/lemonmaid.jpg);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center; 
+}
+
+.fanta
+{
+    background-image: url(../images/fanta.png);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center; 
+}
+
+.sevenup
+{
+    background-image: url(../images/7up.jpg);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center; 
+}
+
+.monster
+{
+    background-image: url(../images/monster.jpg);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center; 
+}
+
+.mountain
+{
+    background-image: url(../images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: 160% 160%;
+    background-position: center;
+}
+
+.joe
+{
+    background-image: url(../images/joe.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.mirinda
+{
+    background-image: url(../images/mirinda.jpg);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center;
+}
+
+.something
+{
+    background-image: url(../images/something.jp2);
+    background-repeat: no-repeat;
+    background-size: 210% 210%;
+    background-position: center;
+}
+
+.lipton
+{
+    background-image: url(../images/lipton.png);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center;
+}
+
+.honest
+{
+    background-image: url(../images/honest.png);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center;
+}
+
+.nespresso
+{
+    background-image: url(../images/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center;
+}
+
+.water
+{
+    background-image: url(../images/water01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.teh 
+{
+    background-image: url(../images/teh.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.redbull
+{
+    background-image: url(../images/redbull.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.root
+{
+    background-image: url(../images/rootbeer.png);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center;
+}
+
+.health
+{
+    background-image: url(../images/health.png);
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    background-position: center;
+}
+
+.google
+{
+    background-image: url(../images/google.jpg);
+    background-repeat: no-repeat;
+    background-size: 130% 130%;
+    background-position: center;
+}

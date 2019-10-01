@@ -1,0 +1,82 @@
+* 
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1
+{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box
+{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+
+    /* transition-property: width, height, background-color;
+    transition-duration: 500ms, 1000ms, 4000ms;
+     transition-delay: 1s;  
+    transition-timing-function: cubic-bezier(.62,10.11,21.1.4), ease-out, linear;
+    transition-delay: 100ms, 300ms, 400ms; */
+
+    /* transtion: [property][duration][delay][timing-function] */
+
+    /* transition: width 2000ms ease-in;
+    transition: height 1000ms ease-in;
+    transition: background-color 4000ms ease-out; */
+}
+
+#trigger1, .box:hover
+{
+    position: relative;
+    left: 200px;
+    top: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border:5px solid orange;
+
+    transition-property: width, height, background-color;
+    transition-duration: 500ms, 1000ms, 4000ms;
+    /* transition-delay: 1s;  */
+    transition-timing-function: cubic-bezier(.62,10.11,21.1.4), ease-out, linear;
+    transition-delay: 100ms, 300ms, 400ms;
+}
+
+#trigger1:hover
+{
+    width: 10px;
+    height: 20px;
+    background-color: purple;
+}
+
+.box
+{
+    /* width: 800px;
+    height: 400px;
+    background-color: purple; */
+    border: 3px solid black;
+}
+
+.red
+{
+    background-color: red;
+}
+/* 
+.red:hover
+{
+    width: 800px;
+    height: 400px;
+    background-color: purple;
+} */
